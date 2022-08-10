@@ -15,11 +15,11 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-import br.com.alura.leilao.dao.PagamentoDao;
-import br.com.alura.leilao.model.Lance;
-import br.com.alura.leilao.model.Leilao;
-import br.com.alura.leilao.model.Pagamento;
-import br.com.alura.leilao.model.Usuario;
+import br.com.alura.leilao.repository.PagamentoDao;
+import br.com.alura.leilao.domain.Lance;
+import br.com.alura.leilao.domain.Leilao;
+import br.com.alura.leilao.domain.Pagamento;
+import br.com.alura.leilao.domain.Usuario;
 
 class GeradorDePagamentoTest {
 	

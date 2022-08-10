@@ -1,4 +1,4 @@
-package br.com.alura.leilao.model;
+package br.com.alura.leilao.domain;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

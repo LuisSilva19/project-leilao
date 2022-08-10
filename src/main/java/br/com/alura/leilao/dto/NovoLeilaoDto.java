@@ -10,7 +10,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
-import br.com.alura.leilao.model.Leilao;
+import br.com.alura.leilao.domain.Leilao;
 
 public class NovoLeilaoDto {
 

@@ -3,13 +3,13 @@ package br.com.alura.leilao.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.alura.leilao.dao.LanceDao;
-import br.com.alura.leilao.dao.LeilaoDao;
-import br.com.alura.leilao.dao.UsuarioDao;
+import br.com.alura.leilao.repository.LanceDao;
+import br.com.alura.leilao.repository.LeilaoDao;
+import br.com.alura.leilao.repository.UsuarioDao;
 import br.com.alura.leilao.dto.NovoLanceDto;
-import br.com.alura.leilao.model.Lance;
-import br.com.alura.leilao.model.Leilao;
-import br.com.alura.leilao.model.Usuario;
+import br.com.alura.leilao.domain.Lance;
+import br.com.alura.leilao.domain.Leilao;
+import br.com.alura.leilao.domain.Usuario;
 
 @Service
 public class LanceService {

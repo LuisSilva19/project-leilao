@@ -1,4 +1,4 @@
-package br.com.alura.leilao.model;
+package br.com.alura.leilao.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

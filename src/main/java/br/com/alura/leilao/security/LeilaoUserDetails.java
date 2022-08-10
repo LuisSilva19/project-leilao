@@ -7,7 +7,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import br.com.alura.leilao.model.Usuario;
+import br.com.alura.leilao.domain.Usuario;
 
 public class LeilaoUserDetails implements UserDetails {
 

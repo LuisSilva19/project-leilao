@@ -11,10 +11,10 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-import br.com.alura.leilao.dao.LeilaoDao;
-import br.com.alura.leilao.model.Lance;
-import br.com.alura.leilao.model.Leilao;
-import br.com.alura.leilao.model.Usuario;
+import br.com.alura.leilao.repository.LeilaoDao;
+import br.com.alura.leilao.domain.Lance;
+import br.com.alura.leilao.domain.Leilao;
+import br.com.alura.leilao.domain.Usuario;
 
 class FinalizarLeilaoServiceTest {
 	

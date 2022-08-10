@@ -6,8 +6,8 @@ import java.time.LocalDate;
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotNull;
 
-import br.com.alura.leilao.model.Lance;
-import br.com.alura.leilao.model.Usuario;
+import br.com.alura.leilao.domain.Lance;
+import br.com.alura.leilao.domain.Usuario;
 
 public class NovoLanceDto {
 

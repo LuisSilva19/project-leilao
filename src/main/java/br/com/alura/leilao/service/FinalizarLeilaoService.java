@@ -6,9 +6,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.alura.leilao.dao.LeilaoDao;
-import br.com.alura.leilao.model.Lance;
-import br.com.alura.leilao.model.Leilao;
+import br.com.alura.leilao.repository.LeilaoDao;
+import br.com.alura.leilao.domain.Lance;
+import br.com.alura.leilao.domain.Leilao;
 
 @Service
 public class FinalizarLeilaoService {

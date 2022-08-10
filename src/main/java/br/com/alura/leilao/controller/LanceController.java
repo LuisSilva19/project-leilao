@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import br.com.alura.leilao.dto.NovoLanceDto;
-import br.com.alura.leilao.model.Leilao;
+import br.com.alura.leilao.domain.Leilao;
 import br.com.alura.leilao.service.LanceService;
 
 @Controller

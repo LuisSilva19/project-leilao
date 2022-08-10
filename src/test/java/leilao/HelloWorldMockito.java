@@ -6,8 +6,8 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
-import br.com.alura.leilao.dao.LeilaoDao;
-import br.com.alura.leilao.model.Leilao;
+import br.com.alura.leilao.repository.LeilaoDao;
+import br.com.alura.leilao.domain.Leilao;
 
 public class HelloWorldMockito {
 	

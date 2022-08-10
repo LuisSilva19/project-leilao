@@ -7,9 +7,9 @@ import java.time.LocalDate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.alura.leilao.dao.PagamentoDao;
-import br.com.alura.leilao.model.Lance;
-import br.com.alura.leilao.model.Pagamento;
+import br.com.alura.leilao.repository.PagamentoDao;
+import br.com.alura.leilao.domain.Lance;
+import br.com.alura.leilao.domain.Pagamento;
 
 @Service
 public class GeradorDePagamento {
